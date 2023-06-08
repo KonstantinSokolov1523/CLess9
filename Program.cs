@@ -54,7 +54,7 @@ int max = convert.ToInt32(Console.readLine());
 Console.WriteLine(LineSumm(Min, Max));
 int LineSumm(int M, int N)
 {
-if(M != N + 1) return result;
+if(M == N + 1) return result;
 return result + LineSumm(M+1);
 }
 }
