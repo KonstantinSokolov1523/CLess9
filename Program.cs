@@ -31,7 +31,7 @@ void task64()
 {
 Console.Write("Введите число: ");
 int N = convert.ToInt32(Console.ReadLine());
-Console.Write($"N = {N} -> LineDown(N)");
+Console.Write($"N = {N} -> {LineDown(N)}");
 string LineDown(int N)
 {
 if(N == 1) return result.ToString();
